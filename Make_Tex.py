@@ -38,6 +38,9 @@ with open('words.txt', 'r') as word_file:
         word = word[6:].replace('\n','').replace(' ','')
         if 'beetle' in word:
             text = text + "\n\\item[{}] A totally awesome bug that I keep in this box. No you can't see it.".format(word)
+        elif 'game' in word:
+            text = text + "\n\\item[{}] Not a roller-coaster, yes solitaire\\ldots You'll just know it when you see it.".format(word)
+
         elif word not in previous_word:
             text = text + "\n\\item[{}] The meaning of the word \'\'{}\'\' is derived from its usage.".format(word,word)
             previous_word = word

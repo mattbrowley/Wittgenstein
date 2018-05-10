@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.8.23)  10 MAY 2018 00:17
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2017.8.23)  10 MAY 2018 09:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -588,12 +588,12 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 4381.
  ) 
 Here is how much of TeX's memory you used:
- 11233 strings out of 495585
- 155961 string characters out of 6185511
+ 11234 strings out of 495585
+ 155977 string characters out of 6185511
  246766 words of memory out of 5000000
- 14435 multiletter control sequences out of 15000+600000
+ 14436 multiletter control sequences out of 15000+600000
  7075 words of font info for 25 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 32i,11n,23p,197b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,11n,23p,197b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on W_Dictionary.pdf (208 pages).
