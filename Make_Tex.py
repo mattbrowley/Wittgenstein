@@ -18,7 +18,7 @@ text = """
 \\chapter*{Introduction}
 This dictionary may only including the 5,000 most common English words, but it
 is massive in scope. Other dictionaries (such as the banal Webster's Dictionary
-or the tiresom Oxford New English Dictionary) rely on the narrow, prescriptive,
+or the tiresome Oxford New English Dictionary) rely on the narrow, prescriptive,
 and circular practice of defining elements of a language by using other
 elements of the self-same language. This dictionary transcends those others by
 providing a complete and rigorous description of each word\'s meaning.
