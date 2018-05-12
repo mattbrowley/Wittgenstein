@@ -9,14 +9,14 @@ text = """
 \\usepackage[bookmarks, breaklinks=true]{hyperref}
 \\hypersetup{pdftex, colorlinks=true}
 \\aliaspagestyle{title}{empty}
-\\title{Wittgensteinian Dictionay}
+\\title{Wittgensteinian Dictionary}
 \\author{Matthew Bown Rowley}
 \\date{\\today}
 \\begin{document}
 \\maketitle
 \\frontmatter
 \\chapter*{Introduction}
-This dictionary may only including the 5,000 most common English words, but it
+This dictionary may include only the 5,000 most common English words, but it
 is massive in scope. Other dictionaries (such as the banal Webster's Dictionary
 or the tiresome Oxford New English Dictionary) rely on the narrow, prescriptive,
 and circular practice of defining elements of a language by using other
@@ -42,7 +42,7 @@ with open('words.txt', 'r') as word_file:
             text = text + "\n\\item[{}] Not a roller-coaster, yes solitaire\\ldots You'll just know it when you see it.".format(word)
 
         elif word not in previous_word:
-            text = text + "\n\\item[{}] The meaning of the word \'\'{}\'\' is derived from its usage.".format(word,word)
+            text = text + "\n\\item[{}] The meaning of the word ``{}\'\' is derived from its usage.".format(word,word)
             previous_word = word
 text = text + """
 \\end{description}
